@@ -8,7 +8,14 @@ datasource db {
 }
 
 model Todo {
-  id        Int      @id @default(autoincrement())
-  title     String
-  createdAt DateTime  @default(now())
+  id             Int       @id @default(autoincrement())
+  title          String
+  dueDate        DateTime?
+  imageUrl       String?
+  duration       Int       @default(1)  // Duration in days
+  createdAt      DateTime  @default(now())
+  
+  // Task dependencies - many-to-many self-referential relationship
+  dependencies   Todo[]    @relation("TaskDependencies")
+  dependentTasks Todo[]    @relation("TaskDependencies")
 }
