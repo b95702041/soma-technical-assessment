@@ -92,7 +92,7 @@ I have successfully implemented all required features, transforming the basic to
 
 ## Screenshot
 
-![Soma Todo App Solution](screenshot.png)
+![Todo App Solution](screenshot/screenshot_0625.png)
 
 *Advanced project management todo application showing: due dates with overdue highlighting, Pexels API images, critical path analysis (blue highlighting), circular dependency warnings, task dependencies, earliest start dates, and interactive dependency graph visualization.*
 
