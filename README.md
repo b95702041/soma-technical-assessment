@@ -93,6 +93,7 @@ I have successfully implemented all required features, transforming the basic to
 ## Screenshot
 
 ![Todo App Solution](screenshot/screenshot_0625.png)
+![Todo App Solution](screenshot/screenshot_0628.png)
 
 *Advanced project management todo application showing: due dates with overdue highlighting, Pexels API images, critical path analysis (blue highlighting), circular dependency warnings, task dependencies, earliest start dates, and interactive dependency graph visualization.*
 
